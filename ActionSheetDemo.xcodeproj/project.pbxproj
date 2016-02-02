@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71884A561C6038CD007B7BF5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71884A531C6038CD007B7BF5 /* RootViewController.m */; };
+		71884A571C6038CD007B7BF5 /* trans_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71884A551C6038CD007B7BF5 /* trans_down@2x.png */; };
 		71EE698C1C3DF81700CF0624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE698B1C3DF81700CF0624 /* main.m */; };
 		71EE698F1C3DF81700CF0624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE698E1C3DF81700CF0624 /* AppDelegate.m */; };
 		71EE69971C3DF81800CF0624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EE69961C3DF81800CF0624 /* Assets.xcassets */; };
 		71EE699A1C3DF81800CF0624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EE69981C3DF81800CF0624 /* LaunchScreen.storyboard */; };
 		71EE69A51C3DF81800CF0624 /* ActionSheetDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE69A41C3DF81800CF0624 /* ActionSheetDemoUITests.m */; };
-		71EE69B11C3DF85800CF0624 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE69B01C3DF85800CF0624 /* RootViewController.m */; };
 		71EE69CF1C3DF90800CF0624 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 71EE69B31C3DF90800CF0624 /* LICENSE */; };
 		71EE69D01C3DF90800CF0624 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE69B61C3DF90800CF0624 /* MASCompositeConstraint.m */; };
 		71EE69D11C3DF90800CF0624 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE69B91C3DF90800CF0624 /* MASConstraint.m */; };
@@ -27,7 +28,6 @@
 		71EE69DA1C3DF90800CF0624 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 71EE69CE1C3DF90800CF0624 /* README.md */; };
 		71EE69DF1C3DFBF300CF0624 /* DPSheetMenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE69DE1C3DFBF300CF0624 /* DPSheetMenue.m */; };
 		71EE69E21C3DFC6100CF0624 /* DPActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE69E11C3DFC6100CF0624 /* DPActionView.m */; };
-		71EE69E41C3E054B00CF0624 /* trans_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71EE69E31C3E054B00CF0624 /* trans_down@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71884A531C6038CD007B7BF5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		71884A541C6038CD007B7BF5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		71884A551C6038CD007B7BF5 /* trans_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trans_down@2x.png"; sourceTree = "<group>"; };
 		71EE69871C3DF81700CF0624 /* ActionSheetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionSheetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EE698B1C3DF81700CF0624 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71EE698D1C3DF81700CF0624 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,8 +54,6 @@
 		71EE69A01C3DF81800CF0624 /* ActionSheetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionSheetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EE69A41C3DF81800CF0624 /* ActionSheetDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDemoUITests.m; sourceTree = "<group>"; };
 		71EE69A61C3DF81800CF0624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71EE69AF1C3DF85800CF0624 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		71EE69B01C3DF85800CF0624 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		71EE69B31C3DF90800CF0624 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		71EE69B51C3DF90800CF0624 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		71EE69B61C3DF90800CF0624 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -84,7 +85,6 @@
 		71EE69DE1C3DFBF300CF0624 /* DPSheetMenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSheetMenue.m; sourceTree = "<group>"; };
 		71EE69E01C3DFC6100CF0624 /* DPActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPActionView.h; sourceTree = "<group>"; };
 		71EE69E11C3DFC6100CF0624 /* DPActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPActionView.m; sourceTree = "<group>"; };
-		71EE69E31C3E054B00CF0624 /* trans_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trans_down@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +108,7 @@
 		71EE697E1C3DF81700CF0624 = {
 			isa = PBXGroup;
 			children = (
-				71EE69E31C3E054B00CF0624 /* trans_down@2x.png */,
 				71EE69DC1C3DFBC900CF0624 /* ActionSheet */,
-				71EE69AF1C3DF85800CF0624 /* RootViewController.h */,
-				71EE69B01C3DF85800CF0624 /* RootViewController.m */,
 				71EE69891C3DF81700CF0624 /* ActionSheetDemo */,
 				71EE69A31C3DF81800CF0624 /* ActionSheetDemoUITests */,
 				71EE69881C3DF81700CF0624 /* Products */,
@@ -130,6 +127,9 @@
 		71EE69891C3DF81700CF0624 /* ActionSheetDemo */ = {
 			isa = PBXGroup;
 			children = (
+				71884A531C6038CD007B7BF5 /* RootViewController.m */,
+				71884A541C6038CD007B7BF5 /* RootViewController.h */,
+				71884A551C6038CD007B7BF5 /* trans_down@2x.png */,
 				71EE69B21C3DF90800CF0624 /* Masonry */,
 				71EE698D1C3DF81700CF0624 /* AppDelegate.h */,
 				71EE698E1C3DF81700CF0624 /* AppDelegate.m */,
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71EE69CF1C3DF90800CF0624 /* LICENSE in Resources */,
-				71EE69E41C3E054B00CF0624 /* trans_down@2x.png in Resources */,
+				71884A571C6038CD007B7BF5 /* trans_down@2x.png in Resources */,
 				71EE699A1C3DF81800CF0624 /* LaunchScreen.storyboard in Resources */,
 				71EE69971C3DF81800CF0624 /* Assets.xcassets in Resources */,
 			);
@@ -314,13 +314,13 @@
 			files = (
 				71EE69D71C3DF90800CF0624 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				71EE69D51C3DF90800CF0624 /* MASViewConstraint.m in Sources */,
+				71884A561C6038CD007B7BF5 /* RootViewController.m in Sources */,
 				71EE69D01C3DF90800CF0624 /* MASCompositeConstraint.m in Sources */,
 				71EE69D61C3DF90800CF0624 /* NSArray+MASAdditions.m in Sources */,
 				71EE698F1C3DF81700CF0624 /* AppDelegate.m in Sources */,
 				71EE698C1C3DF81700CF0624 /* main.m in Sources */,
 				71EE69E21C3DFC6100CF0624 /* DPActionView.m in Sources */,
 				71EE69D31C3DF90800CF0624 /* MASLayoutConstraint.m in Sources */,
-				71EE69B11C3DF85800CF0624 /* RootViewController.m in Sources */,
 				71EE69D91C3DF90800CF0624 /* ViewController+MASAdditions.m in Sources */,
 				71EE69D81C3DF90800CF0624 /* View+MASAdditions.m in Sources */,
 				71EE69DA1C3DF90800CF0624 /* README.md in Sources */,
@@ -508,6 +508,7 @@
 				71EE69AB1C3DF81800CF0624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71EE69AC1C3DF81800CF0624 /* Build configuration list for PBXNativeTarget "ActionSheetDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +517,7 @@
 				71EE69AE1C3DF81800CF0624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
