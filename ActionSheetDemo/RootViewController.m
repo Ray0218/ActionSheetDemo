@@ -50,21 +50,21 @@
     }];
 }
 
-
 #pragma mark -弹出选框
 - (void)pvt_btn {
-    [DPActionView showSheetWithItemTitles:@[ @"Wedding Bell", @"I'm Yours", @"When I was your mam" ]
-                           selectedHandle:^(NSInteger index) {
-                               NSLog(@"点击了第%zd行", index);
-                               
-                               UIAlertView *alter =[[ UIAlertView alloc]initWithTitle:@"dddd" message:@"点击" delegate:nil cancelButtonTitle:@"Cancle" otherButtonTitles: nil];
-                               [alter show];
-                               
-                               
-                           }];
+    if ([DPActionView sharedActionView].isShowing) {
+        NSLog(@"取消弹框");
+        [[DPActionView sharedActionView] dismiss];
+    } else
+        [DPActionView showSheetWithItemTitles:@[ @"Wedding Bell", @"I'm Yours", @"When I was your mam" ]
+                               selectedHandle:^(NSInteger index) {
+                                   NSLog(@"点击了第%zd行", index);
+
+                                   UIAlertView *alter = [[UIAlertView alloc] initWithTitle:@"dddd" message:@"点击" delegate:nil cancelButtonTitle:@"Cancle" otherButtonTitles:nil];
+                                   [alter show];
+
+                               }];
 }
-
-
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 20;

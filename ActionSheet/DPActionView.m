@@ -17,6 +17,8 @@
 @property (nonatomic, strong) CAAnimation *dismissMenuAnimation;
 @property (nonatomic, strong) CAAnimation *dimingAnimation;
 @property (nonatomic, strong) CAAnimation *lightingAnimation;
+@property (assign,nonatomic) BOOL isShowing ;
+
 // 点击背景取消
 @property (nonatomic, strong) UITapGestureRecognizer *tapGesture;
 @end
@@ -82,6 +84,8 @@
         [window addSubview:self];
     }
     
+    self.isShowing = YES ;
+    
     DPSheetMenue *topMenu = (DPSheetMenue *)menu;
     
     [self.menus makeObjectsPerformSelector:@selector(removeFromSuperview)];
@@ -116,6 +120,7 @@
             [self.layer addAnimation:self.lightingAnimation forKey:@"lighting"];
             [menu.layer addAnimation:self.dismissMenuAnimation forKey:@"dismissMenu"];
             [CATransaction commit];
+            self.isShowing = NO ;
         }else{
             [menu removeFromSuperview];
             
@@ -126,6 +131,14 @@
         }
     }
 }
+
+
+-(void)dismiss {
+     DPSheetMenue *topMenu = self.menus.lastObject;
+    [self dismissMenu:topMenu Animated:YES];
+    
+}
+
 
 #pragma mark -
 
@@ -231,7 +244,7 @@
         }
     }];
     [[DPActionView sharedActionView] setMenu:menu animation:YES];
-}
+ }
 
 
 @end

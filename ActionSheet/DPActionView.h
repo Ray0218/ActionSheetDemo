@@ -27,8 +27,13 @@ typedef void(^DPMenuActionHandler)(NSInteger index);
  *	@param 	handler         回调，index从 0 开始
  */
 + (void)showSheetWithItemTitles:(NSArray *)itemTitles selectedHandle:(DPMenuActionHandler)handler;
-
-
-
+/**
+ *  是否显示
+ */
+@property (assign,nonatomic,readonly) BOOL isShowing ;
+/**
+ *  隐藏弹框
+ */
+-(void)dismiss ;
 
 @end
